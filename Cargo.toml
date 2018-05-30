@@ -1,0 +1,14 @@
+[package]
+name = "sltrace"
+version = "0.1.0"
+authors = ["Spencer Powell <krornus@gmail.com>"]
+
+[dependencies]
+rdb = { path = "../rdb" }
+disassemble = "0.0.1"
+addr2line = "0.6.0"
+memmap = "0.6.2"
+object = "0.7"
+gimli = "0.15.0"
+x86asm = "0.1.0"
+fallible-iterator = "0.1.4"
